@@ -7,7 +7,7 @@ export default function Footer() {
 
                 <div className="footer-title">
                     <span>
-                    <img src="" alt="logo"/>
+                <img src="#" alt="Muhammad Sohail" />
                     </span>
                  
                     <ul className="Footbar">
