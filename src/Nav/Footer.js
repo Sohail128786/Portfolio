@@ -1,23 +1,33 @@
 import React from "react";
-export default function Footer(){
-    return ( 
+// import logo form "."
+export default function Footer() {
+    return (
         <>
-    <div className="foter"> 
+            <div className="footer">
 
-    <div className="h">
-     <h2>Muhammad sohail</h2>
-     </div>
+                <div className="footer-title">
+                    <span>
+                    <img src="" alt="logo"/>
+                    </span>
+                 
+                    <ul className="Footbar">
+                        <li>
+                            <a href="/">Home</a>
+                        </li>
+                        <li>
+                            <a href="/coverletter">Certificate</a>
+                        </li>
+                        <li>
+                            <a href="/contectme">Contact Me</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
 
-    <div className="nav-f">
-    <a href="/"><nav>Home</nav></a>
-    <a href="/Cover letter"><nav>Certificate</nav></a>
-    <a href="/Contectme"><nav>Contact Me</nav></a>
-    </div>
 
-    </div>
-     <div className="made">
-     <p>Made with <i className="fa">&#xf004;</i> By Sohail Khan</p> 
-     </div>
-     </>
-     ); 
- }
+            <div className="made">
+                <p>Made By<i className="fa heart">&#xf004;</i>Sohail Khan</p>
+            </div>
+        </>
+    );
+}

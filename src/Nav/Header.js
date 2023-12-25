@@ -12,19 +12,19 @@ function Header(){
 return(
   
   <div className='main'> 
-
+{/* <img src='' alt='main logo' /> */}
  <nav className='nav sticky-header'>
  <Link to="/" className='nav-item'>Home</Link>
- <Link to="/Cover letter" className='nav-item'>Certificate</Link>
- <Link to="/CV" className='nav-item'>CV</Link>
- <Link to="/Contectme" className='nav-item'>Contact Me</Link>
+ <Link to="/coverletter" className='nav-item'>Certificate</Link>
+ <Link to="/cv" className='nav-item'>CV</Link>
+ <Link to="/contectme" className='nav-item'>Contact Me</Link>
 </nav>
 
  <Routes>       
    <Route path="/" element={<Home/>}></Route>
-   <Route path="/Cover letter" element={<About/>}></Route>
-   <Route path='/CV' element={<Cv/>}></Route>
-   <Route path='/Contectme' element={<Callme/>}></Route>
+   <Route path="/coverletter" element={<About/>}></Route>
+   <Route path='/cv' element={<Cv/>}></Route>
+   <Route path='/contectme' element={<Callme/>}></Route>
  </Routes>
  
  </div>

@@ -358,27 +358,60 @@ h1{
   color: rgb(0, 28, 85);
 }
 
-  .foter{
-    display: flex;
+/* --------------Footer Start ------------------------- */
+
+  .footer{
+    /* display: flex; */
     width: 100vw;
-    overflow: hidden;
+    /* overflow: hidden; */
     top: 0;
     background-color: rgb(237, 249, 254);
+    color: #292530;
     height:12vh;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    
+    /* justify-content: space-between; */
+    /* flex-wrap: wrap; */
+    /* text-decoration: none;     */
   }
-.h{
+
+
+.footer-title{
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+    color:black;
+    background-color: transparent;
     font-size: 1vmax;
-    padding: 1%;
+    /* padding: 1%; */
   }
-  .nav-f{
-    display: flex;
-    width: 35%;
-    /* padding: 2vw; */
-   
-  }
+
+.Footbar{
+  display: flex;
+  padding: 15px;
+}
+
+.Footbar li{
+  list-style: none;
+  padding-right: 12px;
+  text-decoration: none;
+  font-size: 1.5vw;
+}
+
+.Footbar>li>a{
+  color: #021306;
+
+  text-decoration: none; 
+}
+.Footbar>li>a:hover{
+  color: #19f700;
+  /* transition: 3s; */
+  /* text-decoration: none;  */
+}
+.Footbar>li>a:active{
+  color: #0011ff;
+
+  /* text-decoration: none;  */
+}
+  
 nav{
   font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   color:rgb(0, 28, 85);
@@ -414,3 +447,9 @@ nav:hover{
     100% {bottom: 300px;}
   }
  
+
+
+ .heart{
+  color: red;
+  padding: 10px;
+ } 
